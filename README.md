@@ -76,3 +76,6 @@ export function Required() {
     return false;
 }
 </pre>
+
+<h3>On click of submit button we can see submitted values.</h3>
+
