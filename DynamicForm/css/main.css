@@ -1,0 +1,136 @@
+html,
+body {
+    height: 100%;
+}
+
+body,
+div,
+form,
+input,
+select,
+p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+h1 {
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+input,
+select,
+textarea {
+    /* margin-bottom: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+select{
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+}
+input[type='submit'] {
+    cursor: pointer;
+    width: 100px;
+    float: right;
+    background-color: #3785D0;
+    border-color: #3785D0;
+    color:#fff;
+}
+
+input[type='submit']:hover {
+   
+   background-color: #589FC9;
+   
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+}
+
+.field {
+    position: relative;
+    margin: 10px 0;
+    width: 300px;
+}
+
+.form-wrapper {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.error-container{
+    background: #ffe7e8;
+    border-color: #e66465;
+    border-left-width: 5px;
+    border-left-style: solid;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.result-wrapper {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.result{
+    width: 500px;
+    word-wrap: break-word;
+}
+.metadata-wrapper {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.metadata{
+    width: 500px;
+    word-wrap: break-word;
+}
+.display-none{
+    display: none;
+}
+.back{
+    cursor: pointer;
+}
+
+.pull-left{
+    float: left;
+}
+
+.width-100{
+    width: 100px;
+}
+
+.width-150{
+    width: 150px;
+}
+
+.btn{
+    cursor: pointer;
+}
+.input-description{
+    color: #A9A9A9;
+    font-style: italic;
+}
