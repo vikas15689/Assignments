@@ -1,7 +1,7 @@
 # Assignments
 
 Project Name : DynamicForm <br/>
-Prerequisite : To run project we required Visual Studio Code with Live Server Extention
+Prerequisite : To run project we need Visual Studio Code with Live Server Extention
 <h3>How to run project</h3>
 Dowload this project to your local system and open in VSC.Just right click on index.html and select "Open with live server"
 
